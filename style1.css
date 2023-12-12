@@ -1,0 +1,205 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 840px;
+    background-color: #2ec2b37d;
+    flex-shrink: 0;
+}
+
+.textarea {
+    padding-top: 205px;
+    padding-inline-start: 140px;
+    margin-inline-end: 120px;
+
+
+
+
+
+
+    >h2 {
+        color: hsl(175, 100%, 2%);
+        font-family: Brown;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 125% */
+        letter-spacing: -0.8px;
+        margin-block-start: 50px;
+            }
+
+            >p {
+            color:  	hsl(0, 0%, 45%);
+        font-family: Brown;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 156.25% */
+        margin-block-start: 20px;
+        margin-block-end: 360px;
+    }
+
+}
+
+
+.formarea {
+    width: 580px;
+    height: 679px;
+    margin-inline-end: 140px;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    margin-block-start: 81px;
+    margin-block-end: 80px;
+}
+
+.name{
+    margin-inline-start: 40px;
+    /* margin-inline-end: 24px; */
+    margin-block-start: 40px;
+    >input{
+        width: 238px;
+        height: 48px;
+    }
+}
+.lname{
+    position: relative;
+    top: -71px; left: 302px;
+    margin-inline-end: 40px;
+    >input{
+        width: 238px;
+        height: 48px;
+    }
+}
+.dob{
+    position: relative;
+    top: -140px; left: 302px;
+    /* margin-inline-start: 40px; */
+    >input{
+        width: 238px;
+        height: 48px;
+    }
+
+}
+.gender{
+    position: relative;
+    top: -71px; 
+    margin-inline-start: 40px;
+    margin-inline-end: 24px;
+    margin-block-start: 40px;
+    >input{
+        width: 238px;
+        height: 48px;
+    }
+    >select{
+        width: 238px;
+        height: 48px;
+    }
+}
+.weight{
+    position: relative;
+    top: -140px;
+    margin-block-start: 40px;
+    margin-inline-start: 40px;
+    >input{
+        width: 238px;
+        height: 48px;
+    }
+    >select{
+        width: 238px;
+        height: 48px;
+    }
+}
+.height{
+    position: relative;
+    top: -210px; left: 302px;
+    /* margin-inline-start: 28px; */
+    >input{
+        width: 238px;
+        height: 48px;
+    }
+    >select{
+        width: 238px;
+        height: 48px;
+    }
+}
+.activity {
+    position: relative;
+    top: -170px;
+    margin-inline: 40px;
+    >select{
+        width: 500px;
+        height: 48px;
+    }
+    
+}
+
+.pass{
+    position: relative;
+    top: -130px;
+    margin-inline: 40px;
+
+
+    }
+    .pass > input{
+        width: 500px;
+        height: 48px;
+        /* margin-block-end: 40px; */
+}
+
+ 
+form {
+    /* display: inline-block; */
+    width: 580px;
+    /* height: 679px; */
+    /* margin-inline-end: 140px; */
+    /* margin-inline-start: 720px; */
+    /* margin-block-start: 81px; */
+    /* margin-block-end: 80px; */
+    /* background-color: antiquewhite; */
+    /* background-color: burlywood; */
+    /* text-align: left; */
+    
+        >button {
+            width: 500px;
+            height: 48px;
+            background-color: blue;
+            position: relative;
+            top: -110px;
+            /* margin-block-start: 30px; */
+            /* margin-block-end: 16px; */
+            margin-inline: 40px;
+        }
+        
+        p {
+            position: relative;
+            top: -114px;
+            color: #000;
+           font-family: Sofia Pro;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px; /* 178.571% */
+            margin-block-end: 40px;
+            margin-inline: 40px;
+        a {
+            color:  	hsl(174, 62%, 47%);
+            font-family: Sofia Pro;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+            text-decoration-line: underline;
+        }
+        }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    
+    }
+
+}
