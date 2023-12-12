@@ -8,8 +8,8 @@
 }
 
 .textarea {
-    padding-top: 205px;
-    padding-inline-start: 140px;
+    margin-top: 205px;
+    margin-inline-start: 140px;
     margin-inline-end: 120px;
 
 
@@ -29,6 +29,9 @@
             }
 
             >p {
+                width: 460px;
+                height: 75px;
+                text-wrap: wrap;
             color:  	hsl(0, 0%, 45%);
         font-family: Brown;
         font-size: 16px;
@@ -80,6 +83,10 @@
         height: 48px;
     }
 
+#cal {
+    position: relative;
+    top: 2.4rem; left: 7.5rem;
+}
 }
 .gender{
     position: relative;
@@ -146,6 +153,10 @@
         height: 48px;
         /* margin-block-end: 40px; */
 }
+#eye {
+    position: relative;
+    top: 2.4rem; left: 25.5rem;
+}
 
  
 form {
@@ -197,9 +208,85 @@ form {
 
 @media only screen and (max-width: 500px) {
     .wrapper {
+        width: 375px;
+        height: 1294px;
+        flex-shrink: 0;
         flex-direction: column;
+        
+
     }
+
+    img {
+        margin-block-start: 74px;
+        margin-inline-start: 24px;
+    }
+    .textarea {
+        width: 375px;
+        height: 1294px;
+        padding-left: -105px;
+        margin: auto;
     
+        /* flex-shrink: 0; */
+        /* padding: 1.5rem; */
+      >h2{
+        width: 327px;
+        height: 30px;
+        margin: auto;
+        font-size: 30px;
+        line-height: normal;
+      }
+      
+        >p { 
+        margin-block-end: 40px;
+        margin-block-start: 12px;
+        text-wrap: wrap;
+        width: 327px;
+        height: 50px;
+        margin: auto;
+    
+        font-weight: 300;
     }
+
+}   
+.formarea {
+    margin-block-start: 40px;
+    margin-inline: 24px;
+    width: 327px;
+    height: 870px;
+    flex-shrink: 0;
+}
+.fname{
+    margin-inline-start: -8px;
+    
+
+}
+ .lname, .dob, .height, .gender, .weight {
+    position: initial;
+    width: 295px;
+    font-weight: 300;
+    margin-block-start: 48px;
+    margin-inline: 16px;
+
+}
+form {
+    width: 327px;
+height: 870px;
+flex-shrink: 0;
+
+> button {
+    width: 295px;
+height: 48px;
+flex-shrink: 0;
+position: initial;
+}
+p {
+
+}
+a{
+
+}
+
+}
+
 
 }
