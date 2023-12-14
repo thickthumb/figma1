@@ -16,63 +16,68 @@
         </div>
     
         <div class="formarea">
-            
-          <form action="get">
-            <div class="name">
-                <label for="name">First Name</label> <br>
-                <input type="text" id="name" placeholder="Tolu"><br>
-            </div>
-
-             <div class="lname">
-                <label for="name">Last Name</label><br>
-                <input type="text" id="lname"  placeholder=""><br>
-             </div>
-            
-            
-            <div class="gender">
-                <label for="sex">Gender</label><br>
-                <select name="" id="sex">
-                    <option value="">Select here</option>
-                    <option value="man">Male</option>
-                    <option value="woman">Female</option>
-                </select><br>
-            </div>
-
-              <div class="dob">
-                
-                  <label for="date">Date of Birth <img src="/Assightment2/assets/u_a_calendar-alt.png" id="cal"  alt="cal_icon"></label><br>
-                <input type="text" id="dob"  placeholder="Select here"  ><br>
-
-             </div>
-            
-            
-            <div class="weight">
-                <label for="weight">Weight (KG)</label><br>
-                <input type="text" id="weight"  placeholder="Enter weight here"><br>
-            </div>
-
-             <div class="height">
-                <label for="height">Height (CM)</label><br>
-                <input type="text" id="height"  placeholder="Enter height here"><br>
-             </div>
-            <div class="activity">
-                <label for="activity">Activity level</label><br>
-                <select name="" id="activity"><br>
-                    <option value="sect1">Select here</option>  
-                </select><br>
-            </div>
-                <div class="pass">
+            <form action="">
+                <div class="name">
+                    <div class="in_box">
+                        <span class="detail">First Name</span><br>
+                        <input type="text" name="" id="" placeholder="Jane" >
+                    </div>
+                    <div class="out_box">
+                        <span class="detail">Last Name</span><br>
+                        <input type="text" name="" id="" placeholder="Doe" >
+                    </div>
+                </div>
+                <div class="gender_dob">
+                    <div class="in_box">
+                        <span class="detail"> Gender </span><br>
+                            <select name="" id="sex">
+                                <option value="">Select here</option>
+                                <option value="man">Male</option>
+                                <option value="woman">Female</option>
+                            </select>
+                        </span>
                     
-                    <label for="pass">Password  <img src="/Assightment2/assets/show.png" id="eye"  alt="eye_icon"></label><br>
-                <input type="password" id="pass1"  placeholder=""><br>
-            </div>
+                    </div>
+                    
+                    <div class="out_box">
+                        <span class="detail">Date of Birth <img src="/Assightment2/assets/u_a_calendar-alt.png" id="cal"  alt="cal_icon"> </span><br>
+                        <input type="text" name="" id="" placeholder="Select here">
+                        
+                    </div>
+                    
+                </div>
+                <div class="weigth_height">
+                    <div class="in_box">
+                        <span class="detail">Weight (KG)</span><br>
+                        <input type="text" name="" id="" placeholder="Enter Weight here" >
+                    </div>
+
+                    <div class="out_box">
+                        <span class="detail">Height (CM)</span><br>
+                        <input type="text" name="" id="" placeholder="Enter Height here" >
+                    </div>
+                </div>
+                <div class="acti_pass">
+                    <div class="in_box">
+                        <span class="detail">Activity</span><br>
+                        <select name="" id="work">
+                            <option value="">Select here</option>
+                            <option value="man">Coding</option>
+                            <option value="woman">Games</option>
+                        </select>
+                    </div>
+                    <div class="in_box">
+                        <span class="detail">Password <img src="/Assightment2/assets/show.png" id="eye"  alt="eye_icon"> </span><br>
+                        <input type="text" name="" id="pass" placeholder="" >
+                    </div>
+                </div>
                 
-                
-                <button>Register</button>
-                
-                <p>By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a></p>
+            
+            <button id="button" >Register</button>
+            <p>By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a></p>
             </form>
         </div>
+            
      </div>
   
 </body>

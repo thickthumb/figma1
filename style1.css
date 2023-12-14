@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .wrapper{
     display: flex;
     flex-direction: row;
@@ -54,156 +58,122 @@
     box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
     margin-block-start: 81px;
     margin-block-end: 80px;
-}
-
-.name{
-    margin-inline-start: 40px;
-    /* margin-inline-end: 24px; */
-    margin-block-start: 40px;
-    >input{
-        width: 238px;
-        height: 48px;
-    }
-}
-.lname{
-    position: relative;
-    top: -71px; left: 302px;
-    margin-inline-end: 40px;
-    >input{
-        width: 238px;
-        height: 48px;
-    }
-}
-.dob{
-    position: relative;
-    top: -140px; left: 302px;
-    /* margin-inline-start: 40px; */
-    >input{
-        width: 238px;
-        height: 48px;
-    }
-
-#cal {
-    position: relative;
-    top: 2.4rem; left: 7.5rem;
-}
-}
-.gender{
-    position: relative;
-    top: -71px; 
-    margin-inline-start: 40px;
-    margin-inline-end: 24px;
-    margin-block-start: 40px;
-    >input{
-        width: 238px;
-        height: 48px;
-    }
-    >select{
-        width: 238px;
-        height: 48px;
-    }
-}
-.weight{
-    position: relative;
-    top: -140px;
-    margin-block-start: 40px;
-    margin-inline-start: 40px;
-    >input{
-        width: 238px;
-        height: 48px;
-    }
-    >select{
-        width: 238px;
-        height: 48px;
-    }
-}
-.height{
-    position: relative;
-    top: -210px; left: 302px;
-    /* margin-inline-start: 28px; */
-    >input{
-        width: 238px;
-        height: 48px;
-    }
-    >select{
-        width: 238px;
-        height: 48px;
-    }
-}
-.activity {
-    position: relative;
-    top: -170px;
-    margin-inline: 40px;
-    >select{
-        width: 500px;
-        height: 48px;
-    }
-    
-}
-
-.pass{
-    position: relative;
-    top: -130px;
-    margin-inline: 40px;
 
 
+    & p {
+        width: 463px;
+
+        color: #000;
+       font-family: Sofia Pro;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 178.571% */
+        margin-block-end: 40px;
+        margin-inline-start: 58px;
+        margin-block-start: 16px;
+   >a {
+        color:  	hsl(174, 62%, 47%);
+        font-family: Sofia Pro;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        text-decoration-line: underline;
     }
-    .pass > input{
-        width: 500px;
-        height: 48px;
-        /* margin-block-end: 40px; */
-}
-#eye {
-    position: relative;
-    top: 2.4rem; left: 25.5rem;
+
+    }
+
 }
 
- 
 form {
-    /* display: inline-block; */
     width: 580px;
-    /* height: 679px; */
-    /* margin-inline-end: 140px; */
-    /* margin-inline-start: 720px; */
-    /* margin-block-start: 81px; */
-    /* margin-block-end: 80px; */
-    /* background-color: antiquewhite; */
-    /* background-color: burlywood; */
-    /* text-align: left; */
+    height: 679px;
+    padding-inline: 40px;
+    padding-block: 40px;
+
+    .name{
+        display: flex;
+        flex-direction: row;
+        margin-block-end: 30px;
+    }
     
-        >button {
-            width: 500px;
+    .gender_dob, .weigth_height{
+        display: flex;
+        flex-direction: row;
+        margin-block-end: 30px;
+    }
+    
+    
+    .in_box{
+        /* margin-inline-start: 40px; */
+        margin-inline-end: 24px;
+        /* margin-block-start: 40px; */
+        >input{
+            width: 238px;
             height: 48px;
-            background-color: blue;
-            position: relative;
-            top: -110px;
-            /* margin-block-start: 30px; */
-            /* margin-block-end: 16px; */
-            margin-inline: 40px;
         }
-        
-        p {
-            position: relative;
-            top: -114px;
-            color: #000;
-           font-family: Sofia Pro;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 25px; /* 178.571% */
-            margin-block-end: 40px;
-            margin-inline: 40px;
-        a {
-            color:  	hsl(174, 62%, 47%);
-            font-family: Sofia Pro;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 25px;
-            text-decoration-line: underline;
+        Select {
+            width: 238px;
+            height: 48px;
         }
+    
+    }
+    .out_box {
+    
+        /* margin-inline-end: 40px; */
+        >input{
+            width: 238px;
+            height: 48px;
         }
+        Select {
+            width: 238px;
+            height: 48px;
+        }
+    }
+    span.detail {
+        width: 159px;
+        height: 14px;
+        color: var(--Text-Headings, #011C34);
+    font-family: Sofia Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    }
+    .acti_pass{
+         #work {
+            margin-block-end: 30px;
+        }
+    }
+    
+    #work, #pass{
+        width: 500px;
+    
+    }
+    
+    #eye {
+        position: relative;
+        top: 40px; left: 410px;
+    }
+    #cal {
+        position: relative;
+        top: 40px; left: 120px;
+    }
+     
+    
+    
+    #button {
+                width: 500px;
+                height: 48px;
+                background-color: blue;
+                
+                margin-block-start: 30px; 
+                
+            }
 }
+        
 
 
 @media only screen and (max-width: 500px) {
@@ -255,19 +225,43 @@ form {
     height: 870px;
     flex-shrink: 0;
 }
-.fname{
-    margin-inline-start: -8px;
-    
-
+.name{
+    margin-inline-start: 16px;
+    margin-block-start: 30px;
 }
- .lname, .dob, .height, .gender, .weight {
+.pass {
+    position: initial;
+    width: 295px;
+    font-weight: 300;
+    /* margin-block-start: 48px; */
+    margin-inline: 16px;
+}
+.activity {
     position: initial;
     width: 295px;
     font-weight: 300;
     margin-block-start: 48px;
     margin-inline: 16px;
+}
 
 }
+ .lname {
+    position: relative;
+    top: 40px; right: 48px;
+    width: 295px;
+    font-weight: 300;
+    /* margin-block-start: 48px; */
+    /* margin-inline: 16px; */
+}
+.gender{
+    position: relative;
+    top:;
+    width: 295px;
+    font-weight: 300;
+    margin-block-start: 144px;
+    margin-inline: 16px;
+}
+
 form {
     width: 327px;
 height: 870px;
