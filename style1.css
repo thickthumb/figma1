@@ -195,92 +195,104 @@ form {
         height: 1294px;
         padding-left: -105px;
         margin: auto;
+        background-color: hsla(170, 60%, 98%, 1);
     
         /* flex-shrink: 0; */
         /* padding: 1.5rem; */
       >h2{
         width: 327px;
         height: 30px;
-        margin: auto;
+        /* margin: auto; */
         font-size: 30px;
         line-height: normal;
+        margin-block-end: 12px;
+
       }
       
         >p { 
         margin-block-end: 40px;
-        margin-block-start: 12px;
+    
         text-wrap: wrap;
         width: 327px;
         height: 50px;
-        margin: auto;
-    
+        /* margin: auto; */
         font-weight: 300;
     }
 
 }   
 .formarea {
-    margin-block-start: 40px;
+    /* margin-block-start: 40px; */
     margin-inline: 24px;
     width: 327px;
     height: 870px;
     flex-shrink: 0;
-}
-.name{
-    margin-inline-start: 16px;
-    margin-block-start: 30px;
-}
-.pass {
-    position: initial;
-    width: 295px;
-    font-weight: 300;
-    /* margin-block-start: 48px; */
-    margin-inline: 16px;
-}
-.activity {
-    position: initial;
-    width: 295px;
-    font-weight: 300;
-    margin-block-start: 48px;
-    margin-inline: 16px;
-}
+    margin-block-start: ;
+    margin-block-end: ;
 
-}
- .lname {
-    position: relative;
-    top: 40px; right: 48px;
-    width: 295px;
-    font-weight: 300;
-    /* margin-block-start: 48px; */
-    /* margin-inline: 16px; */
-}
-.gender{
-    position: relative;
-    top:;
-    width: 295px;
-    font-weight: 300;
-    margin-block-start: 144px;
-    margin-inline: 16px;
+
+    & p{
+        width: 316px;
+        text-align: center;
+        margin-block-end: 64px;
+        margin-inline-start: 30px;
+    }
+
 }
 
 form {
     width: 327px;
-height: 870px;
-flex-shrink: 0;
+    height: 870px;
+    flex-shrink: 0;
+    padding-inline: 0px;
+    padding-block: 0px;
 
-> button {
+.name {
+    flex-direction: column;
+    margin-inline: 16px;
+    /* margin-block-end: 24px; */
+}
+.gender_dob, .weigth_height{
+    flex-direction: column;
+    margin-inline: 16px;
+    /* margin-block-end: 24px; */
+}
+.in_box, .out_box{
+    margin-block-start: 24px;
+
+    & input {
+        width: 295px;
+    }
+    select {
+        width: 295px;
+        
+    }
+}
+#work, #pass {
+    width: 295px;
+
+}
+#eye {
+    position: relative;
+    left: 180px;
+
+}
+#cal {
+    position: relative;
+    left: 150px;
+}
+
+#button {
     width: 295px;
 height: 48px;
 flex-shrink: 0;
-position: initial;
+margin: 16px;
 }
-p {
-
+.acti_pass {
+    margin-inline-start: 16px;
+    #work {
+        margin-block-end: 0px;
+    }
+    
 }
-a{
-
-}
-
-}
-
 
 }
