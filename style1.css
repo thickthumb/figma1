@@ -45,7 +45,9 @@
         margin-block-start: 20px;
         margin-block-end: 360px;
     }
-
+   .small_screen {
+    display: none;
+   }
 }
 
 
@@ -230,7 +232,12 @@ form {
         width: fit-content;
         
     }
-
+.large_screen {
+    display: none;
+}
+.small_screen {
+    display: block;
+}
 }   
 .formarea {
     margin-block-start: 40px;
