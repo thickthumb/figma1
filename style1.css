@@ -180,12 +180,12 @@ form {
 
 @media only screen and (max-width: 500px) {
     .wrapper {
-        margin: auto;
         width: 375px;
         height: 1294px;
         flex-shrink: 0;
         flex-direction: column;
         background-color: ;
+        margin: 0px;
 
     }
 
@@ -272,6 +272,8 @@ form {
     flex-direction: column;
     margin-inline: 16px;
     margin-block-end: 24px;
+    width: 295px;
+    
 }
  .in_box {
     margin-block-end: 24px;
@@ -301,12 +303,14 @@ form {
 }
 
 #button {
+    margin-block-start: -20px;
     width: 295px;
 height: 48px;
 flex-shrink: 0;
-margin: 16px;
+margin-inline: 16px;
 }
 .acti_pass {
+    width: 295px;
     margin-inline-start: 16px;
 
     #work {
