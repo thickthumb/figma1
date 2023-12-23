@@ -60,6 +60,8 @@
     box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
     margin-block-start: 81px;
     margin-block-end: 80px;
+    
+
 
 
     & p {
@@ -85,6 +87,7 @@
     }
 
     }
+    
 
 }
 
@@ -114,23 +117,27 @@ form {
         >input{
             width: 238px;
             height: 48px;
+            margin-block-start: 10px;
         }
         Select {
             width: 238px;
             height: 48px;
+            margin-block-start: 10px;
         }
-    
+        
     }
     .out_box {
-    
+        
         /* margin-inline-end: 40px; */
         >input{
             width: 238px;
             height: 48px;
+            margin-block-start: 10px;
         }
         Select {
             width: 238px;
             height: 48px;
+            margin-block-start: 10px;
         }
     }
     span.detail {
@@ -157,11 +164,11 @@ form {
     
     #eye {
         position: relative;
-        top: 40px; left: 410px;
+        top: 43px; left: 410px;
     }
     #cal {
         position: relative;
-        top: 40px; left: 120px;
+        top: 45px; left: 120px;
     }
      
     
@@ -278,10 +285,12 @@ form {
  .in_box {
     margin-block-end: 24px;
     
+    
 
  }
  .out_box {
     margin-block-end: 24px;
+    
     
  }
 
